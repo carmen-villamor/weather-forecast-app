@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Carmen's Weather App</title>
   </head>
   <body>
     <div class="weather-app">
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="weather-app-city">Sydney</h1>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
             <p class="weather-app-details">
               Sunday 17:20, few clouds <br />
 
@@ -38,7 +39,10 @@
           </div>
           <div class="weather-app-temp-container">
             <div class="weather-app-temp-icon">⛅️</div>
-            <div class="weather-app-temp-value">13</div>
+            <div
+              class="weather-app-temp-value"
+              id="weather-app-temp-value"
+            ></div>
             <div class="weather-app-temp-unit">°C</div>
           </div>
         </div>
