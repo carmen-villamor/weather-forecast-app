@@ -58,7 +58,7 @@ main {
   margin-bottom: 5px;
 }
 
-.weather-app-details span {
+.weather-app-details strong {
   color: #7f55b5;
 }
 
