@@ -46,9 +46,7 @@ function formatDate(date) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  //console.log(days[day]);
   return `${days[day]} ${hours}:${minutes}`;
-  // return "Monday 13:15";
 }
 
 function searchCity(city) {
