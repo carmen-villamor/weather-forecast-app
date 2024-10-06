@@ -64,6 +64,7 @@ main {
 
 .weather-app-temp-container {
   display: flex;
+  margin-top: 20px;
 }
 
 .weather-app-temp-icon {
